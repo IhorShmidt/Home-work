@@ -5,7 +5,6 @@
     font-family: openSans;
 }
 header {
-
     position: relative;
     padding: 5em 0em 7em 0em;
     background: #111111 url(apples.jpg) no-repeat center;
@@ -160,24 +159,14 @@ img {
     width: 80%;
     margin: 0 auto;
 }
-
-/*.subscribtion {
-    margin: 4%;
-    padding: 5%;
-    background-color: white;
-}*/
-
 .subscribe {
     clear: both;
     background: #eee;
 }
 .subscribe-inner {
-
-   background: white;
-   width: 100%;
-   height: 100px;
-   /*padding: 5% 10%;*/
-
+    background: white;
+    width: 100%;
+    height: 100px;
 }
 #btn-subscribe {
     display: inline-block;
@@ -192,37 +181,9 @@ img {
     height: 30px;
     padding: 0 2px;
 }
-
 .save-me input {
-    border: solid 1px rgba(0,0,0,)
-}
-
-/*form.subscribe *{
-    box-sizing: content-box;
-    display: inline-block;
-    height: 30px;
-    padding: 0px 2px;
-}
-form.subscribe input {
-    border: 1px solid hsl(0, 0%, 25%);
-}
-gallery form.subscribe input::-webkit-input-placeholder{
-    color: black;
-}
-form.subscribe button {
-    border: 1px solid hsl(0, 0%, 25%);
-    background-color: hsl(0, 0%, 25%);  
-    color: white;
-}
-form.subscribe button:hover{
-        background-color: hsl(0, 0%, 50%);  
-}*/
-
-
-
-.save-me {
-
+    border: solid 1px rgba(0, 0, 0, )
 }
 .subscribe-position {
-   display: inline-block;
+    display: inline-block;
 }
