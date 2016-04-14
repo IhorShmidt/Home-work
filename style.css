@@ -28,8 +28,6 @@ div .nav {
     margin-left: 15%;
 }
 
-/*  nav - bar */
-
 ul {
     list-style-type: none;
     overflow: hidden;
@@ -118,6 +116,7 @@ button {
     padding-top: 10em;
     padding-bottom: 80px;
     text-align: center;
+    font-size: 1.2em;
 }
 img {
     max-width: 100%;
@@ -162,11 +161,12 @@ img {
 .subscribe {
     clear: both;
     background: #eee;
+    margin-bottom: 5em;
 }
 .subscribe-inner {
     background: white;
     width: 100%;
-    height: 100px;
+    height: 8em;
 }
 #btn-subscribe {
     display: inline-block;
@@ -174,26 +174,101 @@ img {
     height: 1.56em;
     margin-left: .47em;
 }
-.save-me {
-    width: 100%;
+form {
+    padding-top: 2.3em;
     text-align: center;
-    margin: 0 auto;
     font-size: 1.4em;
-    display: inline-block;
-    height: 30px;
-    padding-top: 4%;
-    padding-bottom: 4%;
-}
-.save-me input {
-    border: solid 1px rgba(0, 0, 0, );
-    margin-right: -1em;
-    margin-left: 3em;
+
 }
 .subscribe-position {
     display: inline-block;
 }
 
+.bottom-title {
+    text-align: center;
+    font-weight: 700;
+    font-size: 1.3em;
+    margin: 5% 0%;
+}
+.bottom-p {
+    margin: 1%;
+    color: grey;
+}
 
 .test {
 
 }
+.col1 {
+    margin: 0 auto;
+    width: 20%;
+    display: inline-block;
+    margin-right: 3.1em;
+    height: 10em;
+    vertical-align: top;
+    margin-top: 3em;
+}
+.col2 {
+    margin: 0 auto;
+    width: 20%;
+    display: inline-block;
+    margin-right: 3.1em;
+    height: 10em;
+    vertical-align: top;
+    margin-top: 3em;
+}
+.col3 {
+    margin: 0 auto;
+    width: 20%;
+    display: inline-block;
+    margin-right: 3.1em;
+    height: 10em;
+    vertical-align: top;
+    margin-top: 3em;
+}
+.col4 {
+    margin: 0 auto;
+    width: 20%;
+    display: inline-block;
+    margin-right: 3.1em;
+    height: 10em;
+    vertical-align: top;
+    margin-top: 3em;
+}
+
+#subs-bottom {
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+}
+.bottom-input {
+    display: inline-block;
+    width: 60%;
+    margin-top: 1.3em;
+}
+.btn-bottom {
+    display: inline-block;
+    width: 37%;
+    height: 1.7em;
+    margin-left: -.5em;
+}
+.ruben {
+    
+    display: inline-block;
+}
+
+.bottom {
+    color:grey;
+    margin-top: 1.5em;
+}
+.bottom-a {
+    display: inline-block;
+    color:black;
+    margin-top: -2.4em
+    color:black;
+}
+
+.nav > ul {
+    margin-top: -2em;
+    color: black;
+}
+
